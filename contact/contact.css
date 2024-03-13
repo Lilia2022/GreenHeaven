@@ -1,31 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    transition: all 0.5s;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-:root {
-    /* font-size */
-    --largest-font: 120px;
-    --larger-font: 70px;
-    --large-font: 34px;
-    --text-large-font: 22px;
-    --text-font: 16px;
-    /* color */
-    --text-color: #000;
-    --hover-color: #886e6e;
-    --dark-color: #095000;
-    --bg-color: #b3ffa2;
-    --bg-color-header: #b3ffa2d3;
-    --header-change-color: #b8eba6d7;
+body{
+    background: linear-gradient(90deg    #095000 0%,#16730a 30%, #b3ffa2 30%, #b3ffa2d3 100%);
 }
 
 .container{
     width:100%;
     min-height: 100vh;
-    padding-left:8% ; 
-    padding-right: 3%; 
+    /* padding-left:8% ; 
+    padding-right: 3%;  */
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -34,7 +22,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* background: #e7dfe6; */
+     background: #e7dfe6; 
 }
 
 .logo
@@ -70,6 +58,20 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: hsl(137, 46%, 57%);
+}
+
+.contactUs {
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+
+}
+
+.contactUs .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 @media only screen and (max-width:860px){
