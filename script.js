@@ -10,7 +10,7 @@ function togglemenu(){
     }
     
 
-};
+}
 
 // swiper
 var swiper = new Swiper(".swiper",{

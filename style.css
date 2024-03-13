@@ -266,21 +266,26 @@ col2{
     transition: all 0.5s;
 }
 
-.swiper-slide img[src="./asset/spinach.png"] {
+.swiper-slide img[src="media/spinach.png"] {
     transform: translateY(-120px);
     width: 130px;
 }
-.swiper-slide img[src="./asset/juice.png"] {
+.swiper-slide img[src="media/juice.png"] {
     transform: translateY(-120px);
     width: 130px;
     height: 160px ;
 }
-.swiper-slide img[src="./asset/carrot.png"] {
+.swiper-slide img[src="media/carrot.png"] {
     transform: translateY(-120px);
     width: 130px;
 
 }
-.swiper-slide img[src="./asset/honey.png"] {
+.swiper-slide img[src="media/honey.png"] {
+    transform: translateY(-120px);
+    width: 130px;
+
+}
+.swiper-slide img[src="media/mixt.png"] {
     transform: translateY(-120px);
     width: 130px;
 
