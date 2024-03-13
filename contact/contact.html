@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- home -->
+    <div class="container">
+        <div class="navbar">
+            <img src="../media/logo.jpg" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Dasboard.html">Dashboard</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="../login.html">Login</a></li>
+                </ul>
+            </nav>
+            <img src="../media/menu-icon.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+    </div>
+
+    <!-- Contact--------------- -->
+    
+    <script>
+        let menuList = document.getElementById("menuList");
+        menuList.style.maxHeight ="0px";
+
+        function togglemenu(){
+            if(menuList.style.maxHeight =="0px"){
+                menuList.style.maxHeight ="200px";
+            }
+            else{
+                menuList.style.maxHeight ="0px";
+            }
+    
+
+        }
+
+    </script>
+</body>
+</html>

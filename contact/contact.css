@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: all 0.5s;
+}
+
+:root {
+    /* font-size */
+    --largest-font: 120px;
+    --larger-font: 70px;
+    --large-font: 34px;
+    --text-large-font: 22px;
+    --text-font: 16px;
+    /* color */
+    --text-color: #000;
+    --hover-color: #886e6e;
+    --dark-color: #095000;
+    --bg-color: #b3ffa2;
+    --bg-color-header: #b3ffa2d3;
+    --header-change-color: #b8eba6d7;
+}
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    padding-left:8% ; 
+    padding-right: 3%; 
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background: #e7dfe6; */
+}
+
+.logo
+{
+    max-width: 50px;
+    cursor: pointer;
+    margin: 20px ;
+    border-radius: 50%;
+}
+
+.menu-icon{
+    max-width: 30px;
+    cursor: pointer;
+    margin-right: 30px;
+    display: none;
+}
+nav {
+    flex: 1;
+    text-align: right;
+    /* background: #e6f3e3; */
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #095000;
+    font-size: 16px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: hsl(137, 46%, 57%);
+}
+
+@media only screen and (max-width:860px){
+    nav ul {
+        width: 100%;
+        background: linear-gradient(#5fc47b , #095000); 
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+    .menu-icon {
+        display:block ;
+    }
+    #menuList{
+        overflow: hidden;
+        transition:0.5s;
+    }
+}
