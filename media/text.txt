@@ -2,21 +2,21 @@ Slangs:
 "Power of green in your Daily life with happy farmer "
 
 About:
-At 'Power of Green in Your Daily Life with Happy Farmer,' 
-we are committed to revolutionizing the agricultural sector
+At 'Power of Green in Your Daily Life with Happy Farmer, <br> 
+we are committed to revolutionizing the agricultural sector<br> 
 by addressing the prevalent challenges faced by farmers in 
-marketing their produce. Our platform serves as a transformative
-solution, fostering direct connections between commercial farmers 
-and enthusiastic buyers. Embodying a vision of sustainability, we 
-strive for a prosperous future for all stakeholders, transcending 
+marketing <br> their produce. Our platform serves as a transformative
+solution, fostering <br> direct connections between commercial farmers 
+and enthusiastic buyers. Embodying <br> a vision of sustainability, we 
+strive for a prosperous future for all stakeholders, <br> transcending 
 the traditional barriers in agricultural commerce
 
 
 Services:
-In our pursuit of agricultural transformation, we deploy 
-a unique combination of on-ground foot soldiers and online 
-representatives. These dedicated individuals engage directly 
-with farmers, understanding their specific needs and providing 
-personalized assistance to enhance their marketing efforts. Our 
-online interface facilitates seamless submission of requests, 
-connecting farmers with potential buyers and streamlining the exchange process
+In our pursuit of agricultural transformation, we deploy <br> 
+a unique combination of on-ground foot soldiers and online <br> 
+representatives. These dedicated individuals engage directly <br> 
+with farmers, understanding their specific needs and providing <br> 
+personalized assistance to enhance their marketing efforts. Our <br> 
+online interface facilitates seamless submission of requests, connecting <br> 
+farmers with potential buyers and streamlining the exchange process.
