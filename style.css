@@ -31,13 +31,14 @@
     padding-right: 3%; 
     box-sizing: border-box;
     overflow: hidden;
+    background: var(--bg-color);
 }
 
 .navbar{
     width: 100%;
     display: flex;
     align-items: center;
-    /* background: #e7dfe6; */
+    background:var(--bg-color);
 }
 
 .logo
@@ -92,7 +93,7 @@ nav ul li a:hover{
     font-size: 54px;
 }
 .col1 h2 span{
-    color: #5fc47b;
+    color: #1ab406;
 } 
 .col1 h3 { 
     font-size: 40px;
@@ -186,7 +187,7 @@ nav ul li a:hover{
     align-items: center;
     width: 100%;
     text-align: center;
-   
+    background: var(--bg-color);
 }
  .about h2 {
     margin: 0.4em;
@@ -207,7 +208,7 @@ nav ul li a:hover{
  }
  .about .content p span {
     font-size: 34px;
-    color: #43e356;
+    color: #095000;
  }
  .about img{
     width: 25em;
@@ -251,7 +252,7 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* background:var(--bg-color) ; */
+    background:var(--bg-color) ;
 }
 .product h2{
     font-size: 54px;
@@ -429,8 +430,8 @@ nav ul li a:hover{
 }
 
 .footer-col {
-    width: 25%;
-    padding: 0 15px;
+    width: 22%;
+    padding: 0 12px;
 }
 
 .row-footer .footer-col ul{
@@ -458,7 +459,7 @@ nav ul li a:hover{
 }
 
 .row-footer .footer-col ul li:not(:last-clild) {
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .footer-col ul li a{
