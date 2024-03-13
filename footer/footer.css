@@ -38,6 +38,8 @@
     margin-bottom:30px ;
     font-weight: 500;
     position: relative;
+    background: #095000;
+
 }
 .footer-col h4:hover{
     content: '';
