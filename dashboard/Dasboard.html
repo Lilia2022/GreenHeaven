@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmers' Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="../media/logo.jpg" class="logo">
+        <nav>
+            <ul id="menuList">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+                <li><a href="../login.html">Login</a></li>
+            </ul>
+        </nav>
+        <img src="../media/menu-icon.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+    <div id="addListingForm">
+        <h2>Add New Listing</h2>
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="text" id="price" placeholder="Price">
+        <input type="file" id="image" accept="image/*">
+        <button onclick="addListing()">Add Listing</button>
+    </div>
+ 
+    <div id="chatBox">
+        <h2>Chat Box</h2>
+        <div id="messages">
+            <!-- Chat messages will be displayed here -->
+        </div>
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+ 
+    <div id="listings">
+        <h2>Available Products</h2>
+        <div id="productList">
+            <!-- Product listings will be displayed here -->
+        </div>
+    </div>
+ 
+    <script src="scriptboard.js"></script>
+</body>
+</html>
