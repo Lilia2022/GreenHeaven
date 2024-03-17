@@ -48,7 +48,7 @@ function displayProducts() {
         productName.textContent = product.name;
  
         const productPrice = document.createElement("span");
-        productPrice.textContent = "Price: $" + product.price;
+        productPrice.textContent = "Price: ₦" + product.price;
  
         productDiv.appendChild(image);
         productDiv.appendChild(productName);
