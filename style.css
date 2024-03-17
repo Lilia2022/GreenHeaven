@@ -512,5 +512,161 @@ nav ul li a:hover{
     }
 }
 
+/* ---------- login page------------ */
+.login-page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.login-form {
+    background: #fff;
+    width: 500px;
+    margin: 65px auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+  }
+  .login-form h1 {
+    padding: 35px 35px 0 35px;
+    font-weight: 300;
+  }
+  .login-form .content {
+    padding: 35px;
+    text-align: center;
+  }
+  .login-form .input-field {
+    padding: 12px 5px;
+  }
+  .login-form .input-field input {
+    font-size: 16px;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+  .login-form a.link {
+    text-decoration: none;
+    color: #747474;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .login-form .action {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+  }
+  .login-form .action button {
+    width: 100%;
+    border: none;
+    padding: 18px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #095000;
+    color: #fff;
+    letter-spacing: 0.2px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  .login-form .action button:hover {
+    background: #5fc47b;
+  }
 
+  @media screen and (max-width: 846px) {
+    .login-page .login-form {
+        width: 100%;
+    }
+}
 
+/* ------- profile page -------- */
+.profile-page, .profile-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.profile-page {
+    background-color: #4caf50;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.picture-preview {
+    width: 100px;
+    height:100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-bottom: 10px;}
+
+.picture-preview {
+    display: flex;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+}
+.button-container {
+    text-align: right;
+}
+.cancel-button {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.save-button {
+    background-color: #095000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+    .profile-page .profile-form .form-group {
+        width: 100%;
+    }
+}
